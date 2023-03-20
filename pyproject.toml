@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lyra-python"
+version = "0.1.0"
+description = ""
+authors = ["Baraa42 <75384314+Baraa42@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "lyra_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
